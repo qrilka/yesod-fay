@@ -1,5 +1,4 @@
 {-# LANGUAGE EmptyDataDecls #-}
-{-# LANGUAGE NoImplicitPrelude #-}
 
 -- | This is a slimmed-down jQuery binding, providing just enough functionality
 -- for our demo. Do not rely on this module! Instead, please see:
@@ -7,7 +6,8 @@
 -- <https://github.com/faylang/fay-jquery/blob/master/Language/Fay/JQuery.hs>
 module Language.Fay.JQuery  where
 
-import Language.Fay.Prelude
+import Data.Data
+
 import Language.Fay.FFI
 
 data JQuery
