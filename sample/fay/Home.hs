@@ -1,9 +1,9 @@
-{-# LANGUAGE NoImplicitPrelude #-}
 module Home where
 
-import Language.Fay.Prelude
-import Language.Fay.Yesod
+import Prelude
+import FFI
 import Language.Fay.JQuery
+import Language.Fay.Yesod
 import SharedTypes
 
 main :: Fay ()

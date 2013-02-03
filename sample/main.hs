@@ -1,9 +1,6 @@
 -- To run, try the following:
 --
--- a) using fay < 0.10
--- > runghc -D"MIN_VERSION_fay(a,b,c)=0" -i. -ifay-shared -i.. main.hs
--- b) using fay >= 0.10
--- > runghc -D"MIN_VERSION_fay(a,b,c)=1" -i. -ifay-shared -i.. main.hs
+-- > runghc -i. -ifay-shared -i.. main.hs
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE TemplateHaskell #-}
 {-# LANGUAGE QuasiQuotes #-}
